@@ -2,7 +2,7 @@
 
 > Simple and minimal command line logger in go
 
-![ScreenShot](https://raw.github.com/yashprit/go-cli-colorise-logger/master/output.png)
+![ScreenShot](https://raw.githubusercontent.com/yashprit/go-cli-colorize-logger/master/output.png)
 
 ## Install
 
