@@ -20,6 +20,9 @@ $ go get github.com/yashprit/go-cli-colorise-logger
   clog.Error("%s", errors.New("Something wents wrong"))
 ```
 
+## Documentation
+Follow godoc.org for details [docs](http://godoc.org/github.com/yashprit/go-cli-colorize-logger)
+
 ## Methods
 
 ### Debug([message], [arguments])
