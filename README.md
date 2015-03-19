@@ -2,7 +2,7 @@
 
 > Simple and minimal command line logger in go
 
-![ScreenShot](https://raw.githubusercontent.com/yashprit/go-cli-colorize-logger/master/output.png)
+![ScreenShot](https://raw.github.com/yashprit/go-cli-colorise-logger/master/output.png)
 
 ## Install
 
@@ -35,11 +35,11 @@ warn method of clog, argument is optional if you have nou used any placeholder
 ### Error([error], [arguments])
 error method of clog, argument is optional if you have nou used any placeholder
 
-## Contribute or Report Issue
+## Contribute or Re port Issue
 
 For bugs and feature requests, [please create an issue](github.com/yashprit/go-cli-colorise-logger/issue).
 
 
 ## License
 
-unlicense © [Yashprit](yashprit.github.io)
+[unlicense](http://unlicense.org/) © [Yashprit](yashprit.github.io)
