@@ -1,4 +1,4 @@
-package log
+package clog
 
 //learning:: if you need to export method, start it with capital letter
 
@@ -9,7 +9,7 @@ import "github.com/mgutz/ansi"
  * Enable debugging
  * @type {Boolean}
  */
-var isDebug = false
+var IsDebug = false
 
 /**
  * Internal method to make code dry
@@ -40,7 +40,9 @@ func Info(key string, args ...interface{}) {
  * @param {interface} args interface  veriadic params
  */
 func Debug(key string, args ...interface{}) {
-	colorIt("blue", key, args...)
+	if IsDebug {
+		colorIt("blue", key, args...)
+	}
 }
 
 /**
